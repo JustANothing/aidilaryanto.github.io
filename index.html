@@ -1,114 +1,738 @@
+ 
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <title>Aidil Aryanto</title>
-  <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="assets/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Aidil Aryanto</title>
+	<meta name="description" content="Aidil Aryanto Personal Website">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<div class="wrapper">
 
-  
-  <div class="profile-card js-profile-card">
-    <div class="profile-card__img">
-      <img src="images/me.jpg" alt="profile card">
-    </div>
+<!-- Preloader -->
+<div id="preloader">
+	<div class="outer">
+		<!-- Google Chrome -->
+		<div class="infinityChrome">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
 
-    <div class="profile-card__cnt js-profile-cnt">
-      <div class="profile-card__name">Aidil Aryanto K</div>
-      <div class="profile-card__mail">kontak@aidilaryanto.id</div>
-      <div class="profile-card__txt">HR Trainer | Bachelor of Psychology</div>      
-      <div class="profile-card-loc">
-        <span class="profile-card-loc__icon">
-          <svg class="icon"><use xlink:href="#icon-location"></use></svg>
-        </span>
-
-        <span class="profile-card-loc__txt">
-          Makassar, Indonesia
-        </span>
-      </div>
-
-            <div class="profile-card-social">
-        <a href="https://www.facebook.com/aidillaryanto" class="profile-card-social__item facebook" target="_blank">
-          <span class="icon-font">
-              <svg class="icon"><use xlink:href="#icon-facebook"></use></svg>
-          </span>
-        </a>
-
-        <a href="https://twitter.com/aidilaryanto_" class="profile-card-social__item twitter" target="_blank">
-          <span class="icon-font">
-              <svg class="icon"><use xlink:href="#icon-twitter"></use></svg>
-          </span>
-        </a>
-
-        <a href="https://www.instagram.com/aidilaryanto" class="profile-card-social__item instagram" target="_blank">
-          <span class="icon-font">
-              <svg class="icon"><use xlink:href="#icon-instagram"></use></svg>
-          </span>
-        </a>
-     
-        <a href="https://github.com/aidilaryanto" class="profile-card-social__item github" target="_blank">
-          <span class="icon-font">
-              <svg class="icon"><use xlink:href="#icon-github"></use></svg>
-          </span>
-        </a>
-      
-      </div>
-    
-  </div>
-
+		<!-- Safari and others -->
+		<div class="infinity">
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+		</div>
+		<!-- Stuff -->
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+					<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feBlend in="SourceGraphic" in2="goo" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
 </div>
 
-<svg hidden="hidden">
-  <defs>   
-    <symbol id="icon-github" viewBox="0 0 32 32">
-      <title>github</title>
-      <path d="M16.192 0.512c-8.832 0-16 7.168-16 16 0 7.072 4.576 13.056 10.944 15.168 0.8 0.16 1.088-0.352 1.088-0.768 0-0.384 0-1.632-0.032-2.976-4.448 0.96-5.376-1.888-5.376-1.888-0.736-1.856-1.792-2.336-1.792-2.336-1.44-0.992 0.096-0.96 0.096-0.96 1.6 0.128 2.464 1.664 2.464 1.664 1.44 2.432 3.744 1.728 4.672 1.344 0.128-1.024 0.544-1.728 1.024-2.144-3.552-0.448-7.296-1.824-7.296-7.936 0-1.76 0.64-3.168 1.664-4.288-0.16-0.416-0.704-2.016 0.16-4.224 0 0 1.344-0.416 4.416 1.632 1.28-0.352 2.656-0.544 4-0.544s2.72 0.192 4 0.544c3.040-2.080 4.384-1.632 4.384-1.632 0.864 2.208 0.32 3.84 0.16 4.224 1.024 1.12 1.632 2.56 1.632 4.288 0 6.144-3.744 7.488-7.296 7.904 0.576 0.512 1.088 1.472 1.088 2.976 0 2.144-0.032 3.872-0.032 4.384 0 0.416 0.288 0.928 1.088 0.768 6.368-2.112 10.944-8.128 10.944-15.168 0-8.896-7.168-16.032-16-16.032z"></path>
-      <path d="M6.24 23.488c-0.032 0.064-0.16 0.096-0.288 0.064-0.128-0.064-0.192-0.16-0.128-0.256 0.032-0.096 0.16-0.096 0.288-0.064 0.128 0.064 0.192 0.16 0.128 0.256v0z"></path>
-      <path d="M6.912 24.192c-0.064 0.064-0.224 0.032-0.32-0.064s-0.128-0.256-0.032-0.32c0.064-0.064 0.224-0.032 0.32 0.064s0.096 0.256 0.032 0.32v0z"></path>
-      <path d="M7.52 25.12c-0.096 0.064-0.256 0-0.352-0.128s-0.096-0.32 0-0.384c0.096-0.064 0.256 0 0.352 0.128 0.128 0.128 0.128 0.32 0 0.384v0z"></path>
-      <path d="M8.384 26.016c-0.096 0.096-0.288 0.064-0.416-0.064s-0.192-0.32-0.096-0.416c0.096-0.096 0.288-0.064 0.416 0.064 0.16 0.128 0.192 0.32 0.096 0.416v0z"></path>
-      <path d="M9.6 26.528c-0.032 0.128-0.224 0.192-0.384 0.128-0.192-0.064-0.288-0.192-0.256-0.32s0.224-0.192 0.416-0.128c0.128 0.032 0.256 0.192 0.224 0.32v0z"></path>
-      <path d="M10.912 26.624c0 0.128-0.16 0.256-0.352 0.256s-0.352-0.096-0.352-0.224c0-0.128 0.16-0.256 0.352-0.256 0.192-0.032 0.352 0.096 0.352 0.224v0z"></path>
-      <path d="M12.128 26.4c0.032 0.128-0.096 0.256-0.288 0.288s-0.352-0.032-0.384-0.16c-0.032-0.128 0.096-0.256 0.288-0.288s0.352 0.032 0.384 0.16v0z"></path>
-    </symbol>
+<!-- desktop header -->
+<header class="desktop-header-3 fixed-top">
 
-    <symbol id="icon-location" viewBox="0 0 32 32">
-      <title>location</title>
-      <path d="M16 31.68c-0.352 0-0.672-0.064-1.024-0.16-0.8-0.256-1.44-0.832-1.824-1.6l-6.784-13.632c-1.664-3.36-1.568-7.328 0.32-10.592 1.856-3.2 4.992-5.152 8.608-5.376h1.376c3.648 0.224 6.752 2.176 8.608 5.376 1.888 3.264 2.016 7.232 0.352 10.592l-6.816 13.664c-0.288 0.608-0.8 1.12-1.408 1.408-0.448 0.224-0.928 0.32-1.408 0.32zM15.392 2.368c-2.88 0.192-5.408 1.76-6.912 4.352-1.536 2.688-1.632 5.92-0.288 8.672l6.816 13.632c0.128 0.256 0.352 0.448 0.64 0.544s0.576 0.064 0.832-0.064c0.224-0.096 0.384-0.288 0.48-0.48l6.816-13.664c1.376-2.752 1.248-5.984-0.288-8.672-1.472-2.56-4-4.128-6.88-4.32h-1.216zM16 17.888c-3.264 0-5.92-2.656-5.92-5.92 0-3.232 2.656-5.888 5.92-5.888s5.92 2.656 5.92 5.92c0 3.264-2.656 5.888-5.92 5.888zM16 8.128c-2.144 0-3.872 1.728-3.872 3.872s1.728 3.872 3.872 3.872 3.872-1.728 3.872-3.872c0-2.144-1.76-3.872-3.872-3.872z"></path>
-      <path d="M16 32c-0.384 0-0.736-0.064-1.12-0.192-0.864-0.288-1.568-0.928-1.984-1.728l-6.784-13.664c-1.728-3.456-1.6-7.52 0.352-10.912 1.888-3.264 5.088-5.28 8.832-5.504h1.376c3.744 0.224 6.976 2.24 8.864 5.536 1.952 3.36 2.080 7.424 0.352 10.912l-6.784 13.632c-0.32 0.672-0.896 1.216-1.568 1.568-0.48 0.224-0.992 0.352-1.536 0.352zM15.36 0.64h-0.064c-3.488 0.224-6.56 2.112-8.32 5.216-1.824 3.168-1.952 7.040-0.32 10.304l6.816 13.632c0.32 0.672 0.928 1.184 1.632 1.44s1.472 0.192 2.176-0.16c0.544-0.288 1.024-0.736 1.28-1.28l6.816-13.632c1.632-3.264 1.504-7.136-0.32-10.304-1.824-3.104-4.864-5.024-8.384-5.216h-1.312zM16 29.952c-0.16 0-0.32-0.032-0.448-0.064-0.352-0.128-0.64-0.384-0.8-0.704l-6.816-13.664c-1.408-2.848-1.312-6.176 0.288-8.96 1.536-2.656 4.16-4.32 7.168-4.512h1.216c3.040 0.192 5.632 1.824 7.2 4.512 1.6 2.752 1.696 6.112 0.288 8.96l-6.848 13.632c-0.128 0.288-0.352 0.512-0.64 0.64-0.192 0.096-0.384 0.16-0.608 0.16zM15.424 2.688c-2.784 0.192-5.216 1.696-6.656 4.192-1.504 2.592-1.6 5.696-0.256 8.352l6.816 13.632c0.096 0.192 0.256 0.32 0.448 0.384s0.416 0.064 0.608-0.032c0.16-0.064 0.288-0.192 0.352-0.352l6.816-13.664c1.312-2.656 1.216-5.792-0.288-8.352-1.472-2.464-3.904-4-6.688-4.16h-1.152zM16 18.208c-3.424 0-6.24-2.784-6.24-6.24 0-3.424 2.816-6.208 6.24-6.208s6.24 2.784 6.24 6.24c0 3.424-2.816 6.208-6.24 6.208zM16 6.4c-3.072 0-5.6 2.496-5.6 5.6 0 3.072 2.528 5.6 5.6 5.6s5.6-2.496 5.6-5.6c0-3.104-2.528-5.6-5.6-5.6zM16 16.16c-2.304 0-4.16-1.888-4.16-4.16s1.888-4.16 4.16-4.16c2.304 0 4.16 1.888 4.16 4.16s-1.856 4.16-4.16 4.16zM16 8.448c-1.952 0-3.552 1.6-3.552 3.552s1.6 3.552 3.552 3.552c1.952 0 3.552-1.6 3.552-3.552s-1.6-3.552-3.552-3.552z"></path>
-    </symbol>
+    <div class="container">
+	
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/"><img src="images/logo.svg" alt="Aidil Aryanto" /></a> <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto scrollspy">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experiences</a></li>
+                    <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+                </ul>
+            </div>
+        </nav>
 
-    <symbol id="icon-facebook" viewBox="0 0 32 32">
-      <title>facebook</title>
-      <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
-    </symbol>
+    </div>
 
-    <symbol id="icon-instagram" viewBox="0 0 32 32">
-      <title>instagram</title>
-      <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
-      <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
-      <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
-    </symbol>
+</header>
 
-    <symbol id="icon-twitter" viewBox="0 0 32 32">
-      <title>twitter</title>
-      <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
-    </symbol>
-   
-    <symbol id="icon-link" viewBox="0 0 32 32">
-      <title>link</title>
-      <path d="M17.984 11.456c-0.704 0.704-0.704 1.856 0 2.56 2.112 2.112 2.112 5.568 0 7.68l-5.12 5.12c-2.048 2.048-5.632 2.048-7.68 0-1.024-1.024-1.6-2.4-1.6-3.84s0.576-2.816 1.6-3.84c0.704-0.704 0.704-1.856 0-2.56s-1.856-0.704-2.56 0c-1.696 1.696-2.624 3.968-2.624 6.368 0 2.432 0.928 4.672 2.656 6.4 1.696 1.696 3.968 2.656 6.4 2.656s4.672-0.928 6.4-2.656l5.12-5.12c3.52-3.52 3.52-9.248 0-12.8-0.736-0.672-1.888-0.672-2.592 0.032z"></path>
-      <path d="M29.344 2.656c-1.696-1.728-3.968-2.656-6.4-2.656s-4.672 0.928-6.4 2.656l-5.12 5.12c-3.52 3.52-3.52 9.248 0 12.8 0.352 0.352 0.8 0.544 1.28 0.544s0.928-0.192 1.28-0.544c0.704-0.704 0.704-1.856 0-2.56-2.112-2.112-2.112-5.568 0-7.68l5.12-5.12c2.048-2.048 5.632-2.048 7.68 0 1.024 1.024 1.6 2.4 1.6 3.84s-0.576 2.816-1.6 3.84c-0.704 0.704-0.704 1.856 0 2.56s1.856 0.704 2.56 0c1.696-1.696 2.656-3.968 2.656-6.4s-0.928-4.704-2.656-6.4z"></path>
-    </symbol>
-  </defs>
-</svg>
-<!-- partial -->
-  <script  src="assets/script.js"></script>
+<!-- main layout -->
+<main class="content-3">
+	
+	<!-- section home -->
+	<section id="home" class="home d-flex align-items-center">
+		<div class="container">
+
+			<!-- intro -->
+			<div class="intro">
+				<!-- avatar image -->
+				<img src="images/avatar-1.svg" alt="Aidil Aryanto" class="mb-4" />
+
+				<!-- info -->
+				<h1 class="mb-2 mt-0">Aidil Aryanto Kurniawan</h1>
+				<span>I'm a <span class="text-rotating">Bachelor of Psychology, ProjectDils Developer</span></span>
+
+				<!-- social icons -->
+				<ul class="social-icons light list-inline mb-0 mt-4">
+					<li class="list-inline-item"><a href="https://instagram.com/aidilaryanto"><i class="fa fa-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/aidilarynto"><i class="fa fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="https://facebook.com/aidillaryanto"><i class="fa fa-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="https://github.com/aidilaryanto"><i class="fa fa-github"></i></a></li>
+				</ul>
+
+				<!-- buttons -->
+				<div class="mt-4">
+					<a href="https://t.me/aidilaryanto" target="_blank" class="btn btn-default">Hire me</a>
+				</div>
+			</div>
+			
+			<!-- scroll down mouse wheel -->
+			<div class="scroll-down">
+				<a href="#about" class="mouse-wrapper">
+					<span>Scroll Down</span>
+					<span class="mouse">
+						<span class="wheel"></span>
+					</span>
+				</a>
+			</div>
+
+			<!-- parallax layers -->
+			<div class="parallax" data-relative-input="true">
+
+				<svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg"><path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fill-rule="evenodd"/></svg>
+
+				<svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg"><path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+
+				<svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg"><path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fill-rule="evenodd"/></svg>
+
+				<svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#FFD15C" fill-rule="evenodd"/></svg>
+
+				<svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"/></svg>
+
+				<svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg"><g fill="#FF4C60" fill-rule="evenodd"><path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z"/><path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z"/></g></svg>
+
+				<svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg"><path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+
+				<svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(-40 6.25252 10.12626)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"/></svg>
+
+				<svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9" xmlns="http://www.w3.org/2000/svg"><path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fill-rule="evenodd"/></svg>
+
+				<svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg"><g fill="#44D7B6" fill-rule="evenodd"><path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z"/><path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z"/></g></svg>
+
+				<svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg"><path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fill-rule="evenodd"/></svg>
+
+			</div>
+		</div>
+		
+	</section>
+
+	<!-- section about -->
+	<section id="about">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">About Me</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="text-center text-md-left">
+						<!-- avatar image -->
+						<img src="images/avatar-2.svg" alt="Aidil Aryanto Kurniawan" />
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-9 triangle-left-md triangle-top-sm">
+					<div class="rounded bg-white shadow-dark padding-30">
+						<div class="row">
+							<div class="col-md-6">
+								<!-- about text -->
+								<p>I am Aidil Aryanto Kurniawan, Bachelor of Psychology, Hasanuddin University.</p>
+								<div class="mt-3">
+									<a href="media/Aidil_Aryanto_Kurniawan_CV.pdf" class="btn btn-default">Download CV</a>
+								</div>
+								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+							</div>
+							<div class="col-md-6">
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Microsoft Excel</h4>
+										<span class="float-right">90%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" data-color="#4CAF50">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Microsoft Power Point</h4>
+										<span class="float-right">85%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" data-color="#FF4C60">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Training Employee</h4>
+										<span class="float-right">80%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" data-color="#20639B">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Web Development</h4>
+										<span class="float-right">50%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-color="#6B3074">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Photo & Videography</h4>
+										<span class="float-right">75%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75" data-color="#FFCC1D">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+								
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Design</h4>
+										<span class="float-right">75%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75" data-color="#F77F00">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>														
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- row end -->
+
+			<!-- <div class="spacer" data-height="40"></div> -->
+
+		</div>
+		
+	</section>
+	
+	<!-- section experience -->
+	<section id="experience">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Experience</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-6">
+					
+					<!-- timeline wrapper -->
+					<div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">2014 - 2019</span>
+								<h3 class="title">Bachelor’s Degree</h3>
+								<p>Psychology of Hasanuddin University</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+					<div class="spacer" data-height="45"></div>
+					<!-- timeline wrapper -->
+					<div class="timeline platform bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">2020 - Present</span>
+								<h3 class="title">Social Media & Website Management</h3>
+								<p>Belajar Menjadi - Digital Platform</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					
+					<!-- responsive spacer -->
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+
+					<!-- timeline wrapper -->
+					<div class="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp">
+							
+							<div class="content">
+								<span class="time">March 2020 - November 2020</span>
+								<h3 class="title">Trainer</h3>
+								<span class="time">Human Resource</span>
+								<p>HR Trainer at PT. Bintang Internasional</p>
+							</div>
+						</div>
+						
+						<div class="timeline-container wow fadeInUp">
+							<div class="content">
+								<span class="time">April 2021 - Present</span>
+								<h3 class="title">Payroll Administrator</h3>
+								<span class="time">Human Resource</span>
+								<p>Payroll Administrator at PT. PKSS Branch Makassar</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+	</section>
+	
+	<!-- section works -->
+	<section id="works">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Recent works</h2>
+
+			<div class="spacer" data-height="60"></div>
+
+			<!-- portfolio filter (desktop) -->
+			<ul class="portfolio-filter list-inline wow fadeInUp">
+				<li class="current list-inline-item" data-filter="*">Everything</li>
+				<li class="list-inline-item" data-filter=".technology">Technology</li>
+				<li class="list-inline-item" data-filter=".media">Photo & Video</li>
+				<li class="list-inline-item" data-filter=".education">Education</li>
+				<li class="list-inline-item" data-filter=".design">Design</li>
+			</ul>
+			
+			<!-- portfolio filter (mobile) -->
+			<div class="pf-filter-wrapper">
+				<select class="portfolio-filter-mobile">
+					<option value="*">Everything</option>
+					<option value=".technology">Technology</option>
+					<option value=".media">Photo & Video</option>
+					<option value=".education">Education</option>
+					<option value=".design">Design</option>
+				</select>
+			</div>
+						
+			<!-- portolio wrapper -->
+			<div class="row portfolio-wrapper">
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item design branding">
+					<a href="#design-1" class="gallery-link">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Logo</span>
+								<h4 class="title">Psychology Journal Logo</h4>
+								<span class="more-button"><i class="icon-picture"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/logo.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="design-1" class="gallery mfp-hide">
+						<a href="https://telegra.ph/file/b10d1892c3aca6b692a20.jpg"></a>
+						<a href="https://telegra.ph/file/7b4899eec01cabfbe967a.jpg"></a>
+						<a href="https://telegra.ph/file/3294834f06a4a6f34b5c2.jpg"></a>
+						<a href="https://telegra.ph/file/2818687890502068fb601.jpg"></a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item design branding">
+					<a href="#design-2" class="gallery-link">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Logo</span>
+								<h4 class="title">Layanan Psikologi Unhas</h4>
+								<span class="more-button"><i class="icon-picture"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/logo-2.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="design-2" class="gallery mfp-hide">
+						<a href="https://telegra.ph/file/e470f8ec9467a3b131787.jpg"></a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item design branding">
+					<a href="#design-3" class="gallery-link">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Design</span>
+								<h4 class="title">Hi Fest 2018</h4>
+								<span class="more-button"><i class="icon-picture"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/hifest.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="design-3" class="gallery mfp-hide">
+						<a href="https://telegra.ph/file/4915397ea335d020df087.jpg"></a>
+						<a href="https://telegra.ph/file/6f310b2a1e9c9621d30f0.jpg"></a>
+						<a href="https://telegra.ph/file/5005c23e884bd35421e3e.jpg"></a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item media branding">
+					<a href="#gallery-1" class="gallery-link">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Photo</span>
+								<h4 class="title">World Cancer Day Event 2020</h4>
+								<span class="more-button"><i class="icon-picture"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/wcd.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="gallery-1" class="gallery mfp-hide">
+						<a href="https://telegra.ph/file/b358df43c052987d54dd7.jpg"></a>
+						<a href="https://telegra.ph/file/26e0865f5e7beaf858977.jpg"></a>
+						<a href="https://telegra.ph/file/0f707dd4986d4766bbe62.jpg"></a>
+						<a href="https://telegra.ph/file/77bd4c1829c2ebfff1158.jpg"></a>
+						<a href="https://telegra.ph/file/e741feda1347728cc3b84.jpg"></a>
+					</div>
+				</div>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item media branding">
+					<a href="#gallery-2" class="gallery-link">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Photo</span>
+								<h4 class="title">Macro Photography</h4>
+								<span class="more-button"><i class="icon-picture"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/macro.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="gallery-2" class="gallery mfp-hide">
+						<a href="https://telegra.ph/file/928f35f315ca5bd37ad1c.jpg"></a>
+						<a href="https://telegra.ph/file/b23b38d242d2431b55b6f.jpg"></a>
+						<a href="https://telegra.ph/file/25c535156c8027c1a4f12.jpg"></a>
+						<a href="https://telegra.ph/file/fba9262890893d4b58d0c.jpg"></a>
+						<a href="https://telegra.ph/file/4442318b6811ef5ff5a78.jpg"></a>
+					</div>
+				</div>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item technology">
+					<a href="#small-dialog" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Whatsapp</span>
+								<h4 class="title">ProjectDils Whatsapp Bot</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/wabot.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>ProjectDils Whatsapp Bot</h2>
+						<p>ProjectDils Whastapp Bot is a robot for managing your whatsapp group that is equipped with various features, such as sticker maker, downloader, and other fun features</p>
+						<a href="#" class="btn btn-default">Discontinued</a>
+					</div>
+				</div>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item technology">
+					<a href="#small-dialog-2" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Telegram</span>
+								<h4 class="title">ProjectDils Userbot</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/userbot.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog-2" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>ProjectDils Userbot</h2>
+						<p>A modular Telegram userbot running on Python3 with sqlalchemy database.</p>
+						<p>ProjectDils Userbot can turn your telegram account into a robot with various features.</p>
+						<a href="https://github.com/aidilaryanto/projectdils" target="_blank" class="btn btn-default">Visit on Github</a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item technology">
+					<a href="#small-dialog-3" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Telegram</span>
+								<h4 class="title">Google Drive Mirror Bot</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/mirror.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog-3" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>Google Drive Mirror Bot</h2>
+						<p>Google Drive Mirror Bot is a multipurpose Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.</p>
+						<a href="https://t.me/gdrvbot" target="_blank" class="btn btn-default">Start Bot</a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item technology">
+					<a href="#small-dialog-4" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Website</span>
+								<h4 class="title">Google Drive Index</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/drive.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog-4" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>ProjectDils Drive - Google Drive Index</h2>
+						<p>ProjectDils Drive is a project uses Google Drive API to Index Files and Folders</p>
+						<a href="https://aidrive.gq" target="_blank" class="btn btn-default">Visit ProjectDils Drive</a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item technology">
+					<a href="#small-dialog-5" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Website</span>
+								<h4 class="title">ProjectDils Shortener</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/shortlink.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog-5" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>ProjectDils Shortener</h2>
+						<p>ProjectDils Shortener is a project for shorten your Url with custom link</p>
+						<a href="https://linkku.gq" target="_blank" class="btn btn-default">Visit ProjectDils ShortUrl</a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item education">
+					<a href="#small-dialog-6" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Mental Health</span>
+								<h4 class="title">Belajar Menjadi - Digital Platform</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/bm.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog-6" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>Belajar Menjadi</h2>
+						<p>Belajar Menjadi is is a platform that departs from Mental Health Issues as a support towards mental well-being. Means of sharing information and learning outcomes from life experiences which are expected to be a trigger for individuals to become authentic humans by recognizing and developing self-potential.</p>
+						<a href="https://belajarmenjadi.com" target="_blank" class="btn btn-default">Visit Belajar Menjadi</a>
+					</div>
+				</div>
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item media">
+					<a href="#small-dialog-7" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Video</span>
+								<h4 class="title">Tawwa Media</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/tawwa.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="small-dialog-7" class="white-popup zoom-anim-dialog mfp-hide">
+						<h2>Tawwa Media</h2>
+						<p>Tawwa Media is a documentary partner for your events</p>
+						<a href="https://www.youtube.com/channel/UCEeaoXoNCaA1AByp3Amkxsg" target="_blank" class="btn btn-default">Visit Youtube</a>
+					</div>
+				</div>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item media">
+					<a href="https://www.youtube.com/watch?v=ZWLVnKT-dAk" class="work-video">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Video</span>
+								<h4 class="title">Komunikasi Efektif Bagi Kids Jaman Now</h4>
+								<span class="more-button"><i class="icon-camrecorder"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/video.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item media">
+					<a href="https://www.youtube.com/watch?v=enyszxPmGRo" class="work-video">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Video</span>
+								<h4 class="title">"THE BIG 5th ANNIVERSARY PROJECT"</h4>
+								<span class="more-button"><i class="icon-camrecorder"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/video-2.png" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+    <div class="spacer" data-height="96"></div>
+    
+    <footer class="footer">
+        <div class="container">
+            <span class="copyright">© <script>document.write(new Date().getFullYear())</script> | aidilaryanto.id</span>
+        </div>
+    </footer>
+	
+</main>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 </html>
